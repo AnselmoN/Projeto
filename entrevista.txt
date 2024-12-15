@@ -1,1 +1,24 @@
-https://docs.google.com/forms/d/1YYivrMMhiOdihxjZkKCYN2SEvyCkPX0AVO4lYv032aM/edit?pli=1
+cd ~/Desktop
+ls
+cd Entrevistas
+git init
+git add .
+git commit -m "Adiciona a pasta Entrevistas ao repositório"
+
+
+não usar----https://github.com/AnselmoN/projeto-interdisciplinar-I.git
+git remote add origin https://github.com/AnselmoN/Projeto.git
+git push -u origin main
+git push -u origin master
+
+
+------se der erro de url antiga
+git remote -v
+vai aparecer
+origin  https://github.com/usuario-antigo/repo-antigo.git (fetch)
+origin  https://github.com/usuario-antigo/repo-antigo.git (push)
+atualize a url
+git remote set-url origin https://github.com/AnselmoN/Projeto.git
+confirme
+git remote -v
+
